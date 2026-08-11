@@ -1,28 +1,5 @@
-# Image Classification using CNN and PyTorch
-
-This project implements an **Image Classification system using a Convolutional Neural Network (CNN)** built with **PyTorch**. The model is trained on the **CIFAR-10 dataset** to classify images into 10 different categories.
-
-## Project Overview
-
-The project demonstrates the complete workflow of an image classification model, including:
-
-* Loading and preprocessing image data
-* Using the CIFAR-10 dataset
-* Creating training and testing DataLoaders
-* Building a custom CNN architecture
-* Training the neural network
-* Saving and loading the trained model
-* Evaluating model accuracy on test data
-* Predicting the class of new images
-
-The CIFAR-10 dataset contains images belonging to the following 10 classes:
-
-`plane, car, bird, cat, deer, dog, frog, horse, ship, truck`
-
-## Technologies Used
-
-* Python
-* PyTorch
-* Torchvision
-* NumPy
-* PIL (Python Imaging Library)
+A PyTorch-based CNN for classifying images from the CIFAR-10 dataset.
+The model uses convolutional, pooling, and fully connected layers for image classification.
+Images are preprocessed using resizing, tensor conversion, and normalization.
+The trained model can classify images into 10 CIFAR-10 categories such as cat, dog, car, and plane.
+The model is trained, evaluated for accuracy, saved, and used for predicting custom images.
