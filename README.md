@@ -2,7 +2,7 @@
 
 This project implements an **Image Classification system using a Convolutional Neural Network (CNN)** built with **PyTorch**. The model is trained on the **CIFAR-10 dataset** to classify images into 10 different categories.
 
-## 📌 Project Overview
+## Project Overview
 
 The project demonstrates the complete workflow of an image classification model, including:
 
@@ -19,7 +19,7 @@ The CIFAR-10 dataset contains images belonging to the following 10 classes:
 
 `plane, car, bird, cat, deer, dog, frog, horse, ship, truck`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * PyTorch
